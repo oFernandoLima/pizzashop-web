@@ -14,7 +14,7 @@ import { Dialog, DialogTrigger } from '@/components/ui/dialog'
 import { TableCell, TableRow } from '@/components/ui/table'
 
 import { OrderDetails } from './order-details'
-import { OrderStatus } from './order-status'
+import { OrderStatus } from '../../../components/order-status'
 
 export interface OrderTableRowProps {
   order: {
