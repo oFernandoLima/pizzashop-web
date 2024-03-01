@@ -13,7 +13,7 @@ test('update profile successfully', async ({ page }) => {
 
   await page.waitForLoadState('networkidle')
 
-  const toast = await page.getByText('Perfil atualizado com sucesso!')
+  const toast = page.getByText('Perfil atualizado com sucesso!')
 
   expect(toast).toBeVisible()
 
